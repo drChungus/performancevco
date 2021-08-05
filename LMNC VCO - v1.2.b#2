@@ -166,6 +166,14 @@
 </layers>
 <board>
 <plain>
+<wire x1="0" y1="0" x2="89" y2="0" width="0" layer="20"/>
+<wire x1="89" y1="0" x2="89" y2="90" width="0" layer="20"/>
+<wire x1="0" y1="90" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="52.07" y1="80.01" x2="52.07" y2="90" width="0" layer="20"/>
+<wire x1="80.01" y1="80.01" x2="80.01" y2="90" width="0" layer="20"/>
+<wire x1="80.01" y1="90" x2="89" y2="90" width="0" layer="20"/>
+<wire x1="0" y1="90" x2="52.07" y2="90" width="0" layer="20"/>
+<wire x1="80.01" y1="80.01" x2="52.07" y2="80.01" width="0" layer="20" curve="-180"/>
 <wire x1="3.150628125" y1="79.578621875" x2="3.29986875" y2="79.218571875" width="0.1" layer="21"/>
 <wire x1="3.29986875" y1="79.218571875" x2="3.467828125" y2="78.86665" width="0.1" layer="21"/>
 <wire x1="3.467828125" y1="78.86665" x2="3.614559375" y2="78.505590625" width="0.1" layer="21"/>
@@ -3308,6 +3316,27 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
+<package name="E2,5-5" urn="urn:adsk.eagle:footprint:22845/1" library_version="11">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm, diameter 5 mm</description>
+<wire x1="-1.651" y1="1.27" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="-1.397" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.143" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-1.397" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.413" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 <package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="11">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
@@ -3340,31 +3369,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="153CLV-0605" urn="urn:adsk.eagle:footprint:22904/1" library_version="11">
-<description>&lt;b&gt;Aluminum electrolytic capacitors&lt;/b&gt;&lt;p&gt;
-SMD (Chip) Long Life Vertical 153 CLV&lt;p&gt;
-http://www.bccomponents.com/</description>
-<wire x1="2.4" y1="-3.3" x2="-3.3" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="-1.1" x2="-3.3" y2="1.1" width="0.2032" layer="51"/>
-<wire x1="-3.3" y1="1.1" x2="-3.3" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.3" y1="3.3" x2="2.4" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="2.4" x2="3.3" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="1.1" x2="3.3" y2="-1.1" width="0.2032" layer="51"/>
-<wire x1="3.3" y1="-1.1" x2="3.3" y2="-2.4" width="0.2032" layer="21"/>
-<wire x1="3.3" y1="-2.4" x2="2.4" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="-2.95" y1="-0.9" x2="2.95" y2="-0.95" width="0.2032" layer="21" curve="145.181395"/>
-<wire x1="-2.95" y1="-0.9" x2="-2.95" y2="0.95" width="0.2032" layer="51" curve="-34.818605"/>
-<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.9" width="0.2032" layer="21" curve="-145.181395"/>
-<wire x1="2.95" y1="-0.95" x2="2.95" y2="0.9" width="0.2032" layer="51" curve="34.818605"/>
-<smd name="+" x="2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
-<smd name="-" x="-2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
-<text x="-3.39" y="3.63" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.425" y="-4.885" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
+<package3d name="E2,5-5" urn="urn:adsk.eagle:package:23344/1" type="box" library_version="11">
+<description>ELECTROLYTIC CAPACITOR
+grid 2.54 mm, diameter 5 mm</description>
+<packageinstances>
+<packageinstance name="E2,5-5"/>
+</packageinstances>
+</package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="11">
 <description>CAPACITOR</description>
 <packageinstances>
@@ -3375,14 +3388,6 @@ http://www.bccomponents.com/</description>
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/2" type="model" library_version="11">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0605"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4044,15 +4049,15 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="58.42" y="30.48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.277" y="27.686" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0605" package3d_urn="urn:adsk.eagle:package:23398/2" value="10uF" x="33.655" y="31.115" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.242" y="29.845" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="5" x="-13.335" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-13.335" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="31.242" y="33.528" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF" x="31.75" y="31.115" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.337" y="29.845" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="16" x="-15.24" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-15.24" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="29.337" y="33.528" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="153CLV-0605" package3d_urn="urn:adsk.eagle:package:23398/2" value="10uF" x="24.13" y="31.115" smashed="yes" rot="R180">
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E2,5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF" x="24.13" y="31.115" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.352" y="28.8925" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="5" x="-33.02" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="16" x="-33.02" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-33.02" y="102.235" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.717" y="33.528" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -4297,8 +4302,8 @@ design rules under a new name.</description>
 <wire x1="60.325" y1="9.74" x2="54.61" y2="13.335" width="0" layer="19" extent="1-1"/>
 <wire x1="43.815" y1="35.98" x2="64.77" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="41.275" y1="35.98" x2="43.815" y2="35.98" width="0" layer="19" extent="1-1"/>
-<wire x1="30.955" y1="31.115" x2="41.275" y2="35.98" width="0" layer="19" extent="1-1"/>
-<wire x1="21.59" y1="15.875" x2="30.955" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="31.115" x2="41.275" y2="35.98" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="15.875" x2="33.02" y2="31.115" width="0" layer="19" extent="1-1"/>
 <wire x1="24.55" y1="12.065" x2="21.59" y2="15.875" width="0" layer="19" extent="1-1"/>
 <wire x1="2.2225" y1="24.39125" x2="21.59" y2="15.875" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4327,6 +4332,17 @@ design rules under a new name.</description>
 <contactref element="J10" pad="2"/>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="10"/>
+<polygon width="0.254" layer="1" isolate="0.254">
+<vertex x="80.01" y="90"/>
+<vertex x="80.01" y="79.6925" curve="-90"/>
+<vertex x="66.3575" y="66.04" curve="-90"/>
+<vertex x="52.07" y="80.3275"/>
+<vertex x="52.07" y="90"/>
+<vertex x="0" y="90"/>
+<vertex x="0" y="0"/>
+<vertex x="89" y="0"/>
+<vertex x="89" y="90"/>
+</polygon>
 <contactref element="P1" pad="8"/>
 <contactref element="P1" pad="6"/>
 <contactref element="P1" pad="4"/>
@@ -4347,17 +4363,17 @@ design rules under a new name.</description>
 <wire x1="46.99" y1="27.725" x2="50.8" y2="27.725" width="0" layer="19" extent="1-1"/>
 <wire x1="41.91" y1="24.55" x2="46.99" y2="27.725" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1" y1="22.645" x2="41.91" y2="24.55" width="0" layer="19" extent="1-1"/>
-<wire x1="36.355" y1="31.115" x2="41.91" y2="24.55" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="36.83" x2="36.355" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="75.605" y1="33.005" x2="69.215" y2="26.035" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="31.115" x2="38.1" y2="22.645" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="31.115" x2="30.48" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="26.25" y1="26.67" x2="25.4" y2="31.115" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="36.83" x2="30.48" y2="31.115" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="39.37" x2="31.75" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="39.37" x2="31.75" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="39.37" x2="29.21" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="36.83" x2="31.75" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="36.83" x2="26.67" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="21.43" y1="31.115" x2="26.67" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="26.25" y1="26.67" x2="21.43" y2="31.115" width="0" layer="19" extent="1-1"/>
 <wire x1="17.78" y1="40.22" x2="26.67" y2="39.37" width="0" layer="19" extent="1-1"/>
-<wire x1="75.605" y1="33.005" x2="69.215" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="52.07" y1="13.335" x2="50.8" y2="27.725" width="0" layer="19" extent="1-1"/>
 <wire x1="60.325" y1="8.04" x2="52.07" y2="13.335" width="0" layer="19" extent="1-1"/>
 <wire x1="40.005" y1="5.715" x2="52.07" y2="13.335" width="0" layer="19" extent="1-1"/>
@@ -4622,8 +4638,8 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="20.955" x2="62.23" y2="29.63" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="23.495" x2="54.61" y2="20.955" width="0" layer="19" extent="1-1"/>
 <wire x1="24.55" y1="26.67" x2="29.21" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="26.83" y1="31.115" x2="24.55" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="15.455" y1="30.1625" x2="24.55" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="31.115" x2="24.55" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="15.455" y1="30.1625" x2="22.86" y2="31.115" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-12VIN">
 <contactref element="R41" pad="1"/>
@@ -4641,6 +4657,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="1V">
 <contactref element="U2" pad="5"/>
+</signal>
+<signal name="GND1">
+<polygon width="0.254" layer="16" isolate="0.254">
+<vertex x="80.01" y="90"/>
+<vertex x="80.01" y="79.6925" curve="-90"/>
+<vertex x="66.3575" y="66.04" curve="-90"/>
+<vertex x="52.07" y="80.3275"/>
+<vertex x="52.07" y="90"/>
+<vertex x="0" y="90"/>
+<vertex x="0" y="0"/>
+<vertex x="89" y="0"/>
+<vertex x="89" y="90"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
