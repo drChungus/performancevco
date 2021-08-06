@@ -2037,7 +2037,7 @@ GND</text>
 <text x="77.47" y="66.3575" size="1.27" layer="21" rot="R180">4v</text>
 <text x="9.2075" y="12.065" size="1.27" layer="21" align="center">VCO 1222 Eurorack
 Yoram Scheer</text>
-<text x="7.9375" y="0.635" size="1.27" layer="21" align="center">V1.0
+<text x="-0.9525" y="19.05" size="1.27" layer="21" align="center">V1.0
 Jan-2020</text>
 <text x="9.8425" y="67.945" size="1.27" layer="21" align="center">Based on design from:</text>
 <text x="19.685" y="41.275" size="1.27" layer="21">-12v</text>
@@ -4326,8 +4326,29 @@ design rules under a new name.</description>
 <element name="R16" library="parts_aman" package="ALPS_POT_VERTICAL" value="10kB" x="6.985" y="-10.16" smashed="yes">
 <attribute name="NAME" x="6.985" y="-3.175" size="1.27" layer="25" font="vector" ratio="16" align="center"/>
 </element>
-<element name="J1" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="5.08" y="-24.13" smashed="yes">
-<attribute name="NAME" x="9.58" y="-29.13" size="1.27" layer="25" rot="R180"/>
+<element name="J1" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="18.415" y="-22.86" smashed="yes">
+<attribute name="NAME" x="22.28" y="-17.065" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J2" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-36.195" smashed="yes">
+<attribute name="NAME" x="4.5" y="-41.195" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J3" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-49.53" smashed="yes">
+<attribute name="NAME" x="4.5" y="-54.53" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J4" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-62.865" smashed="yes">
+<attribute name="NAME" x="4.5" y="-67.865" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J5" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-76.2" smashed="yes">
+<attribute name="NAME" x="4.5" y="-81.2" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J6" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-89.535" smashed="yes">
+<attribute name="NAME" x="4.5" y="-94.535" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J7" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-102.87" smashed="yes">
+<attribute name="NAME" x="4.5" y="-107.87" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="J8" library="og-pj301" package="WQP_PJ_301M_TME" value="PJ301_THONKICONNTME" x="0" y="-116.205" smashed="yes">
+<attribute name="NAME" x="4.5" y="-121.205" size="1.27" layer="25" rot="R180"/>
 </element>
 </elements>
 <signals>
